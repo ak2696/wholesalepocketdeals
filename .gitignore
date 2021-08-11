@@ -1,5 +1,11 @@
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
+wp-includes/
+# gitignore file for WordPress Core
+
+# Configuration files with possibly sensitive information
+wp-config.php
+.htaccess
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
